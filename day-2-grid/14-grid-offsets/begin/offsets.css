@@ -65,7 +65,7 @@ article aside {
     grid-area: aside3;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
