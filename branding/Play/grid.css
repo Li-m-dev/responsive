@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid > div {
+  float: left;
+  width: 33.333%;
+  background-color: yellow;
+}
+
+@supports (display: grid) {
+  .grid > div {
+    width: auto;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 500px;
+}
